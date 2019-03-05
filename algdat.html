@@ -74,12 +74,11 @@
 					</div>
 				</div>
 
-			<!-- Footer -->
+			<!-- Footer
 				<footer id="footer">
 					<ul class="icons">
 						<li><a href="https://twitter.com/MaxAnzinger" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="https://www.facebook.com/maxi.anzinger" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-						<!-- <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li> -->
 						<li><a href="https://www.instagram.com/maximilian.anzinger/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="https://github.com/MaximilianAnzinger" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
 						<li><a href="mailto:maximilian.anzinger@web.de" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
@@ -88,7 +87,8 @@
 						<li>&copy; Maximilian Anzinger 2019. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						<li><a href="legalDetails.html">Legal Details</a></li>
 					</ul>
-				</footer>
+				</footer> -->
+				<div id="includedFooter"></div>
 
 		</div>
 
@@ -101,6 +101,13 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script src="jquery.js"></script> 
+    	<script> 
+    		$(function(){
+      		$("#includedFooter").load("footer.html"); 
+    		});
+			</script>
 
 	</body>
 </html>
